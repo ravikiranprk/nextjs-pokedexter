@@ -6,3 +6,4 @@
 - Tailwind CSS
 - Framer Motion
 - PokeAPI (https://pokeapi.co/api/v2/pokemon)
+- Infinite Scrolling

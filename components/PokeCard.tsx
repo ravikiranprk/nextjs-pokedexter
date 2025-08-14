@@ -88,7 +88,7 @@ const PokeCard: React.FC<Props> = ({ pokemon }) => {
         whileTap={{ scale: 0.95 }}
       >
         <motion.div
-          className="bg-gray-100 flex items-center rounded-xl p-3 relative"
+          className="bg-card flex items-center rounded-xl p-3 relative shadow-lg"
           initial={{ rotateY: 0 }}
           variants={{
             front: { rotateY: 0 },
@@ -96,7 +96,7 @@ const PokeCard: React.FC<Props> = ({ pokemon }) => {
           }}
           animate={isFlipped ? "back" : "front"}
         >
-          <div className="absolute top-0 left-0 text-white font-bold p-3 text-5xl">
+          <div className="absolute top-0 left-0 text-gray-900 font-bold p-3 text-4xl">
             {!isFlipped &&
               formatPokemonNumber(pokemonNumber || "")}
           </div>
