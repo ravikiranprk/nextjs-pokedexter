@@ -60,7 +60,7 @@ const LoadPokemon = ({
           className="flex justify-center items-center p-4"
           ref={ref}
         >
-          <ClipLoader color="#fff" />
+          <ClipLoader color="#222" />
         </div>
       )}
     </>
