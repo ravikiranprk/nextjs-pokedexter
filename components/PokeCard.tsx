@@ -88,7 +88,7 @@ const PokeCard: React.FC<Props> = ({ pokemon }) => {
         whileTap={{ scale: 0.95 }}
       >
         <motion.div
-          className="bg-gray-500 flex items-center rounded-xl p-1 relative"
+          className="bg-gray-100 flex items-center rounded-xl p-3 relative"
           initial={{ rotateY: 0 }}
           variants={{
             front: { rotateY: 0 },
