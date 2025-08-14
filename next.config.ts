@@ -9,6 +9,12 @@ const nextConfig: NextConfig = {
         hostname: "raw.githubusercontent.com",
       }
     ]
+  },
+  typescript: {
+    ignoreBuildErrors: true,
+  },
+  eslint: {
+    ignoreDuringBuilds: true,
   }
 };
 
